@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 2rem 0;
+    padding: 0;
+    background-color:#ddd;
+}
+.form-container {
+    width: 100%;
+    max-width: 21cm;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    line-height: 1.5;
+    position: relative;
+}
+
+.header img.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.subheader {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.checkbox-label {
+    margin-right: 10px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.input-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.input-field {
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    width: 100px;
+    outline: none;
+    text-align: center;
+}
+
+.label-below {
+    font-size: 0.9em;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.signature-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.signature-box {
+    width: 48%;
+    border-top: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+}

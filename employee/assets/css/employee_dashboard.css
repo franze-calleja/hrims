@@ -1,0 +1,256 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Profile Dashboard */
+.profile-dashboard {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 650px;
+  height: auto;
+  min-height: 294px;
+  padding: 1.25rem;
+  background: #FFFF;
+  border-radius: 1.44rem;
+  margin: 1.25rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.443);
+  box-sizing: border-box;
+}
+
+.profile-image {
+  width: 175px;
+  height: 175px;
+  border-radius: 10%;
+  margin-right: 3%;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.profile-info .greeting {
+  font-size: 25px;
+}
+
+.profile-info .name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.profile-info .edit-button {
+  width: 90%;
+  max-width: 150px;
+  height: auto;
+  min-height: 40px;
+  margin-top: 0.625rem;
+  background-color: maroon;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3125rem;
+  padding: 0.5rem 1rem;
+}
+
+.profile-info .edit-button i {
+  margin-right: 0.3125rem;
+}
+
+.profile-info .edit-button:hover,
+.profile-info .edit-button:focus,
+.profile-info .edit-button:active {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.profile-info .date {
+  font-size: 15px;
+}
+
+.edit-profile-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.edit-profile-link:hover,
+.edit-profile-link:focus {
+  text-decoration: underline;
+  color: darkgray;
+}
+
+/* Leave Details */
+.leave-details, .employee-details {
+  width: 90%;
+  max-width: 313px;
+  height: auto;
+  min-height: 294px;
+  padding: 1rem;
+  border-radius: 1.44rem;
+  margin: 1.25rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.443);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leave-details {
+  background: maroon;
+  color: white;
+}
+
+.employee-details {
+  background: white;
+  color: #800000;
+}
+
+/* Icon Positioning */
+.leave-details .title,
+.employee-details .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin: 1.875rem 0;
+}
+
+.leave-details .title i,
+.employee-details .title i {
+  font-size: 3rem; /* Adjust the size of the icons here */
+  margin-left: 10px; /* Space between text and icon */
+}
+
+/* Ensuring the icons stay on the right side */
+.leave-details .title, 
+.employee-details .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leave-details .line, .employee-details .line {
+  border-top: 2px solid currentColor;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.leave-details .number, .employee-details .number {
+  font-size: 2.5rem;
+  text-align: right;
+  margin-right: 0.625rem;
+}
+
+/* View Link */
+.view-link {
+  color: gray;
+  text-decoration: none;
+  display: block;
+}
+
+.view-link:hover {
+  text-decoration: underline;
+  color: darkgray;
+}
+
+/* New Rectangle Styles */
+.demo-1, .demo-2, .demo-3, .demo-4 {
+  width: 90%;
+  max-width: 650px;
+  height: auto;
+  min-height: 440px;
+  padding: 0.5rem;
+  background: #FFFF;
+  border-radius: 1rem;
+  margin: 1.25rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.443);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.demo-1 p, .demo-2 p, .demo-3 p, .demo-4 p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+  text-align: left;
+  color: maroon;
+}
+
+/* Announcements List */
+.announcement-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.announcement-list li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background: #f8f8f8;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-list li strong {
+  color: maroon;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Recent Activities List */
+.recent-activities-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-activities-list li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background: #f8f8f8;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recent-activities-list li strong {
+  color: maroon;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.demo-1 p, .demo-2 p {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.demo-1 p::after, .demo-2 p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px; /* Thickness of the line */
+  background-color: maroon; /* Color of the line */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+

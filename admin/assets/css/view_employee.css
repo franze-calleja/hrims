@@ -1,0 +1,117 @@
+.main-container {
+  display: flex;
+  justify-content: center;  /* Horizontal centering */
+  align-items: center;      /* Vertical centering */
+  flex-direction: column;
+  height: 90vh;
+}
+
+.profile-container {
+  position: relative; /* Added for positioning */
+  width: 80%;
+  height: 80%;
+  padding: 8px;
+  background: #FFFF;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.443); /* Add shadow */
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  /* padding-bottom: 1.5%; */
+}
+
+.profile-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 10%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info .name {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  color: maroon;
+}
+
+.profile-info .info-item {
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+}
+
+.separator {
+  width: 95%;
+  height: 2px;
+  background-color: #ddd;
+  margin-left: 25px;
+}
+
+.other-info {
+  margin-left: 8%;
+  margin-top: 1%;
+  font-size: 1rem;
+}
+
+.other-info h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.other-info .info-item {
+  font-size: 1.25rem;
+}
+
+.info-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-column {
+  flex: 1;
+  min-width: 30%; /* Adjust as needed */
+}
+
+
+
+/* Text color for labels in maroon */
+.text-maroon {
+  color: #800000; /* Maroon color */
+}
+
+/* Ensure modal content is aligned */
+.modal-body .form-control {
+  margin-bottom: 1rem; /* Add spacing between inputs */
+}
+
+.modal-body .row {
+  margin-bottom: 1rem; /* Add spacing between rows */
+}
+
+/* Maroon Save changes button */
+.btn {
+  background-color: #800000;
+  color: #fff;
+  border-color: #800000;
+}
+
+.btn:hover {
+  background-color: #660000;
+  border-color: #660000;
+}

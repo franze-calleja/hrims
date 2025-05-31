@@ -1,0 +1,17 @@
+.page-content {
+    background-color: #ececec;
+    max-height: calc(100vh - 56px); 
+    overflow-y: auto;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-content h1 {
+    background: maroon;
+    background: linear-gradient(to right, maroon 0%, rgb(178, 100, 100) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+
+

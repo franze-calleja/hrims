@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 2rem 0;
+    padding: 0;
+    background-color:#ddd;
+}
+.form-container {
+    width: 100%;
+    max-width: 21cm;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+.header-text {
+    text-align: center;
+    font-weight: bold;
+}
+.document-info {
+    font-size: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.form-field {
+    margin-bottom: 10px;
+}
+.form-field label {
+    display: inline-block;
+    width: 150px;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background-color: transparent;
+    padding: 2px 0;
+}
+.signatures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.signature {
+    text-align: center;
+    width: 30%;
+}
+.signature-line {
+    border-top: 1px solid #000;
+    margin-top: 3rem;
+}
+
+
+        
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 3rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 3px;
+    text-align: left;
+    vertical-align: top;
+    height: 18px;
+}
+
+.sideMargin{
+    padding: 0 1.5rem;
+}
+
