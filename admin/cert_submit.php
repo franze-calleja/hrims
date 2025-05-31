@@ -269,7 +269,8 @@ if (isset($_SESSION['error'])) {
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-            <button type="submit" class="btn btn-danger" style="background-color: #800000 !important;">Upload Certificate</button>
+            <button type="submit" class="btn btn-danger" style="background-color: #800000 !important;">Upload
+              Certificate</button>
           </div>
         </form>
       </div>
